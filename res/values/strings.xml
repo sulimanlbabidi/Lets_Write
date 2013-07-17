@@ -4,5 +4,6 @@
     <string name="app_name">Let`s Write</string>
     <string name="action_settings">Settings</string>
     <string name="splash">splash</string>
+    <string name="hello">main menu</string>
 
 </resources>

@@ -7,7 +7,7 @@ public class AboutActivity extends Activity {
 	 @Override
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
-	        setContentView(R.layout.splash);
+	        setContentView(R.layout.about);
 	    }
 
 }

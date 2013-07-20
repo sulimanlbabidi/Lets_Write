@@ -15,14 +15,16 @@ public class SplashActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
         Animation fade = AnimationUtils.loadAnimation(this,R.anim.fade_in);
-        final LinearLayout lay = (LinearLayout) findViewById (R.id.main);
+        final LinearLayout lay = (LinearLayout) findViewById (R.id.splash);
         lay.setAnimation(fade);
         lay.startLayoutAnimation();
         fade.setAnimationListener(new AnimationListener() {
         	@Override
         	public void onAnimationEnd(Animation animation)
         	{
-        		lay.setBackgroundColor(getResources().getColor(R.color.white));
+        		
+        		//lay.setBackgroundColor(getResources().getColor(R.color.white));
+        		lay.setBackgroundResource(R.drawable.background);
         		SplashActivity.this.finish();
         		startActivity(new Intent(SplashActivity.this,MenuActivity.class));
         		

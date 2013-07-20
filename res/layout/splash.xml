@@ -6,7 +6,7 @@
     android:layout_gravity="fill_horizontal"
     android:gravity="fill" 
     android:orientation="vertical"
-    android:background="@drawable/background" 
-    android:id="@+id/main">
+    android:background="@drawable/splash" 
+    android:id="@+id/splash">
     
  </LinearLayout>
